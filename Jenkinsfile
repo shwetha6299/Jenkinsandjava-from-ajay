@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        ECR_PUBLIC_REPO_URI = 'public.ecr.aws/k0c8q8z5/jenkinsecr'
+        ECR_PUBLIC_REPO_URI = 'public.ecr.aws/j6a4o3t5/jenkinsecr'
         IMAGE_TAG = 'latest'
         IMAGE_URI = "${ECR_PUBLIC_REPO_URI}:${IMAGE_TAG}"
         EKS_CLUSTER = 'my-eks-cluster'
