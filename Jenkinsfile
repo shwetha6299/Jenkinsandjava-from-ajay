@@ -16,7 +16,7 @@ pipeline {
                 echo 'Checking out source code...'
 
                 git branch: 'main',
-                    url: 'https://github.com/Ajayrichard/Jenkinsandjava.git'
+                    url: 'https://github.com/shwetha6299/Jenkinsandjava-from-ajay.git'
             }
         }
 
